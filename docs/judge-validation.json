@@ -1,0 +1,448 @@
+{
+  "at": "2026-10-15T03:37:49.661589+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "expected": "AC",
+      "actual": "AC",
+      "passed": true,
+      "details": {
+        "environment": {
+          "compiler": "g++ (Debian 12.2.0-14+deb12u1) 12.2.0",
+          "flags": [
+            "-std=c++20",
+            "-O2",
+            "-pipe",
+            "-DONLINE_JUDGE"
+          ],
+          "architecture": "aarch64",
+          "kernel": "6.12.76-linuxkit",
+          "isolation": "Docker Linux; no network; non-root candidate; seccomp default + candidate process/network deny; per-case rlimits",
+          "image_id": "sha256:56c10bb07d711889dffcd599fa3cb146fa7ec9fe701f4e5c4f1b56c444f5c980",
+          "runner_sha256": "b4304acbdc98b64c9c522aa2413011344a3577886d76cb29ff1e613db5331936"
+        },
+        "compile": {
+          "verdict": "OK",
+          "exit_code": 0,
+          "signal": null,
+          "cpu_ms": 314.367,
+          "wall_ms": 322.108,
+          "memory_kb": 82084,
+          "stdout": "",
+          "stderr": ""
+        },
+        "tests": [
+          {
+            "verdict": "AC",
+            "exit_code": 0,
+            "signal": null,
+            "cpu_ms": 1.936,
+            "wall_ms": 2.232,
+            "memory_kb": 10940,
+            "stdout": "0001",
+            "stderr": "",
+            "index": 1,
+            "category": "harness",
+            "checker": "integer_tokens_v1"
+          }
+        ],
+        "verdict": "AC",
+        "passed": 1,
+        "total": 1,
+        "source_sha256": "edc6ab5546b9c9cc84344e4ce58106300b63496e43155fbd8e1f1660f3ee6d3c"
+      }
+    },
+    {
+      "expected": "WA",
+      "actual": "WA",
+      "passed": true,
+      "details": {
+        "environment": {
+          "compiler": "g++ (Debian 12.2.0-14+deb12u1) 12.2.0",
+          "flags": [
+            "-std=c++20",
+            "-O2",
+            "-pipe",
+            "-DONLINE_JUDGE"
+          ],
+          "architecture": "aarch64",
+          "kernel": "6.12.76-linuxkit",
+          "isolation": "Docker Linux; no network; non-root candidate; seccomp default + candidate process/network deny; per-case rlimits",
+          "image_id": "sha256:56c10bb07d711889dffcd599fa3cb146fa7ec9fe701f4e5c4f1b56c444f5c980",
+          "runner_sha256": "b4304acbdc98b64c9c522aa2413011344a3577886d76cb29ff1e613db5331936"
+        },
+        "compile": {
+          "verdict": "OK",
+          "exit_code": 0,
+          "signal": null,
+          "cpu_ms": 329.261,
+          "wall_ms": 336.224,
+          "memory_kb": 81700,
+          "stdout": "",
+          "stderr": ""
+        },
+        "tests": [
+          {
+            "verdict": "WA",
+            "exit_code": 0,
+            "signal": null,
+            "cpu_ms": 3.0,
+            "wall_ms": 3.386,
+            "memory_kb": 10940,
+            "stdout": "2",
+            "stderr": "",
+            "index": 1,
+            "category": "harness",
+            "checker": "integer_tokens_v1"
+          }
+        ],
+        "verdict": "WA",
+        "passed": 0,
+        "total": 1,
+        "source_sha256": "bcc7b86f10e07e6285e117eef4649e1a4e62485e86aaed5d92aa20676a996304"
+      }
+    },
+    {
+      "expected": "CE",
+      "actual": "CE",
+      "passed": true,
+      "details": {
+        "environment": {
+          "compiler": "g++ (Debian 12.2.0-14+deb12u1) 12.2.0",
+          "flags": [
+            "-std=c++20",
+            "-O2",
+            "-pipe",
+            "-DONLINE_JUDGE"
+          ],
+          "architecture": "aarch64",
+          "kernel": "6.12.76-linuxkit",
+          "isolation": "Docker Linux; no network; non-root candidate; seccomp default + candidate process/network deny; per-case rlimits",
+          "image_id": "sha256:56c10bb07d711889dffcd599fa3cb146fa7ec9fe701f4e5c4f1b56c444f5c980",
+          "runner_sha256": "b4304acbdc98b64c9c522aa2413011344a3577886d76cb29ff1e613db5331936"
+        },
+        "compile": {
+          "verdict": "RTE",
+          "exit_code": 1,
+          "signal": null,
+          "cpu_ms": 14.715,
+          "wall_ms": 13.163,
+          "memory_kb": 23768,
+          "stdout": "",
+          "stderr": "main.cpp:1:1: error: expected unqualified-id before \u2018this\u2019\n    1 | this is not cpp\n      | ^~~~\n"
+        },
+        "tests": [],
+        "verdict": "CE",
+        "source_sha256": "08e7b97049f70bd98a5f69e41024c782bf65fe43643092d9b666047e557bb6c0"
+      }
+    },
+    {
+      "expected": "RTE",
+      "actual": "RTE",
+      "passed": true,
+      "details": {
+        "environment": {
+          "compiler": "g++ (Debian 12.2.0-14+deb12u1) 12.2.0",
+          "flags": [
+            "-std=c++20",
+            "-O2",
+            "-pipe",
+            "-DONLINE_JUDGE"
+          ],
+          "architecture": "aarch64",
+          "kernel": "6.12.76-linuxkit",
+          "isolation": "Docker Linux; no network; non-root candidate; seccomp default + candidate process/network deny; per-case rlimits",
+          "image_id": "sha256:56c10bb07d711889dffcd599fa3cb146fa7ec9fe701f4e5c4f1b56c444f5c980",
+          "runner_sha256": "b4304acbdc98b64c9c522aa2413011344a3577886d76cb29ff1e613db5331936"
+        },
+        "compile": {
+          "verdict": "OK",
+          "exit_code": 0,
+          "signal": null,
+          "cpu_ms": 62.706,
+          "wall_ms": 60.64,
+          "memory_kb": 29252,
+          "stdout": "",
+          "stderr": ""
+        },
+        "tests": [
+          {
+            "verdict": "RTE",
+            "exit_code": -6,
+            "signal": 6,
+            "cpu_ms": 1.896,
+            "wall_ms": 2.36,
+            "memory_kb": 10940,
+            "stdout": "",
+            "stderr": "",
+            "index": 1,
+            "category": "harness",
+            "checker": "integer_tokens_v1"
+          }
+        ],
+        "verdict": "RTE",
+        "passed": 0,
+        "total": 1,
+        "source_sha256": "52d1ba2f0c466775a2d94f807bf51a5284774b8f8da022b94f0582941da049db"
+      }
+    },
+    {
+      "expected": "TLE",
+      "actual": "TLE",
+      "passed": true,
+      "details": {
+        "environment": {
+          "compiler": "g++ (Debian 12.2.0-14+deb12u1) 12.2.0",
+          "flags": [
+            "-std=c++20",
+            "-O2",
+            "-pipe",
+            "-DONLINE_JUDGE"
+          ],
+          "architecture": "aarch64",
+          "kernel": "6.12.76-linuxkit",
+          "isolation": "Docker Linux; no network; non-root candidate; seccomp default + candidate process/network deny; per-case rlimits",
+          "image_id": "sha256:56c10bb07d711889dffcd599fa3cb146fa7ec9fe701f4e5c4f1b56c444f5c980",
+          "runner_sha256": "b4304acbdc98b64c9c522aa2413011344a3577886d76cb29ff1e613db5331936"
+        },
+        "compile": {
+          "verdict": "OK",
+          "exit_code": 0,
+          "signal": null,
+          "cpu_ms": 45.712,
+          "wall_ms": 44.455,
+          "memory_kb": 28184,
+          "stdout": "",
+          "stderr": ""
+        },
+        "tests": [
+          {
+            "verdict": "TLE",
+            "exit_code": -9,
+            "signal": 9,
+            "cpu_ms": 984.086,
+            "wall_ms": 1003.041,
+            "memory_kb": 10940,
+            "stdout": "",
+            "stderr": "",
+            "index": 1,
+            "category": "harness",
+            "checker": "integer_tokens_v1"
+          }
+        ],
+        "verdict": "TLE",
+        "passed": 0,
+        "total": 1,
+        "source_sha256": "b7a93c68b345a825f9914bba5c72edfa07326730ac8e71658656fdaa3872c72c"
+      }
+    },
+    {
+      "expected": "OLE",
+      "actual": "OLE",
+      "passed": true,
+      "details": {
+        "environment": {
+          "compiler": "g++ (Debian 12.2.0-14+deb12u1) 12.2.0",
+          "flags": [
+            "-std=c++20",
+            "-O2",
+            "-pipe",
+            "-DONLINE_JUDGE"
+          ],
+          "architecture": "aarch64",
+          "kernel": "6.12.76-linuxkit",
+          "isolation": "Docker Linux; no network; non-root candidate; seccomp default + candidate process/network deny; per-case rlimits",
+          "image_id": "sha256:56c10bb07d711889dffcd599fa3cb146fa7ec9fe701f4e5c4f1b56c444f5c980",
+          "runner_sha256": "b4304acbdc98b64c9c522aa2413011344a3577886d76cb29ff1e613db5331936"
+        },
+        "compile": {
+          "verdict": "OK",
+          "exit_code": 0,
+          "signal": null,
+          "cpu_ms": 41.007,
+          "wall_ms": 39.891,
+          "memory_kb": 29212,
+          "stdout": "",
+          "stderr": ""
+        },
+        "tests": [
+          {
+            "verdict": "OLE",
+            "exit_code": -9,
+            "signal": 9,
+            "cpu_ms": 2.617,
+            "wall_ms": 3.708,
+            "memory_kb": 10940,
+            "stdout": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxx",
+            "stderr": "",
+            "index": 1,
+            "category": "harness",
+            "checker": "integer_tokens_v1"
+          }
+        ],
+        "verdict": "OLE",
+        "passed": 0,
+        "total": 1,
+        "source_sha256": "756c72ba8db29ec853c0f12323c40e0b2fab3ff89bc81edee9af26390c04e475"
+      }
+    },
+    {
+      "expected": "MLE",
+      "actual": "MLE",
+      "passed": true,
+      "details": {
+        "environment": {
+          "compiler": "g++ (Debian 12.2.0-14+deb12u1) 12.2.0",
+          "flags": [
+            "-std=c++20",
+            "-O2",
+            "-pipe",
+            "-DONLINE_JUDGE"
+          ],
+          "architecture": "aarch64",
+          "kernel": "6.12.76-linuxkit",
+          "isolation": "Docker Linux; no network; non-root candidate; seccomp default + candidate process/network deny; per-case rlimits",
+          "image_id": "sha256:56c10bb07d711889dffcd599fa3cb146fa7ec9fe701f4e5c4f1b56c444f5c980",
+          "runner_sha256": "b4304acbdc98b64c9c522aa2413011344a3577886d76cb29ff1e613db5331936"
+        },
+        "compile": {
+          "verdict": "OK",
+          "exit_code": 0,
+          "signal": null,
+          "cpu_ms": 90.134,
+          "wall_ms": 87.726,
+          "memory_kb": 30944,
+          "stdout": "",
+          "stderr": ""
+        },
+        "tests": [
+          {
+            "verdict": "MLE",
+            "exit_code": -9,
+            "signal": 9,
+            "cpu_ms": 17.528,
+            "wall_ms": 57.032,
+            "memory_kb": 33436,
+            "stdout": "",
+            "stderr": "",
+            "index": 1,
+            "category": "harness",
+            "checker": "integer_tokens_v1"
+          }
+        ],
+        "verdict": "MLE",
+        "passed": 0,
+        "total": 1,
+        "source_sha256": "91d9baf7bc1e20c84bb9f067d303d9a0d4c08a946fdd0d9f31e77e7e077b13a4"
+      }
+    },
+    {
+      "expected": "SECURITY_VIOLATION",
+      "actual": "SECURITY_VIOLATION",
+      "passed": true,
+      "details": {
+        "environment": {
+          "compiler": "g++ (Debian 12.2.0-14+deb12u1) 12.2.0",
+          "flags": [
+            "-std=c++20",
+            "-O2",
+            "-pipe",
+            "-DONLINE_JUDGE"
+          ],
+          "architecture": "aarch64",
+          "kernel": "6.12.76-linuxkit",
+          "isolation": "Docker Linux; no network; non-root candidate; seccomp default + candidate process/network deny; per-case rlimits",
+          "image_id": "sha256:56c10bb07d711889dffcd599fa3cb146fa7ec9fe701f4e5c4f1b56c444f5c980",
+          "runner_sha256": "b4304acbdc98b64c9c522aa2413011344a3577886d76cb29ff1e613db5331936"
+        },
+        "compile": {
+          "verdict": "OK",
+          "exit_code": 0,
+          "signal": null,
+          "cpu_ms": 65.909,
+          "wall_ms": 62.966,
+          "memory_kb": 28804,
+          "stdout": "",
+          "stderr": ""
+        },
+        "tests": [
+          {
+            "verdict": "SECURITY_VIOLATION",
+            "exit_code": -31,
+            "signal": 31,
+            "cpu_ms": 2.238,
+            "wall_ms": 2.679,
+            "memory_kb": 10940,
+            "stdout": "",
+            "stderr": "",
+            "index": 1,
+            "category": "harness",
+            "checker": "integer_tokens_v1"
+          }
+        ],
+        "verdict": "SECURITY_VIOLATION",
+        "passed": 0,
+        "total": 1,
+        "source_sha256": "8c2e91dbd9eab2cf484f03ce505649aa0912f6bd206d6a22fbd24cc8ac8542b7"
+      }
+    },
+    {
+      "expected": "AC",
+      "actual": "AC",
+      "passed": true,
+      "name": "hidden_data_access_denied",
+      "details": {
+        "environment": {
+          "compiler": "g++ (Debian 12.2.0-14+deb12u1) 12.2.0",
+          "flags": [
+            "-std=c++20",
+            "-O2",
+            "-pipe",
+            "-DONLINE_JUDGE"
+          ],
+          "architecture": "aarch64",
+          "kernel": "6.12.76-linuxkit",
+          "isolation": "Docker Linux; no network; non-root candidate; seccomp default + candidate process/network deny; per-case rlimits",
+          "image_id": "sha256:56c10bb07d711889dffcd599fa3cb146fa7ec9fe701f4e5c4f1b56c444f5c980",
+          "runner_sha256": "b4304acbdc98b64c9c522aa2413011344a3577886d76cb29ff1e613db5331936"
+        },
+        "compile": {
+          "verdict": "OK",
+          "exit_code": 0,
+          "signal": null,
+          "cpu_ms": 313.642,
+          "wall_ms": 328.139,
+          "memory_kb": 87416,
+          "stdout": "",
+          "stderr": ""
+        },
+        "tests": [
+          {
+            "verdict": "AC",
+            "exit_code": 0,
+            "signal": null,
+            "cpu_ms": 2.206,
+            "wall_ms": 2.58,
+            "memory_kb": 11052,
+            "stdout": "1",
+            "stderr": "",
+            "index": 1,
+            "category": "harness",
+            "checker": "integer_tokens_v1"
+          }
+        ],
+        "verdict": "AC",
+        "passed": 1,
+        "total": 1,
+        "source_sha256": "46399908e6ad5166e0d793ebe4c09c26d51f2b6a5f5799b49fba061f03113d42"
+      }
+    }
+  ],
+  "environment": {
+    "available": true,
+    "image": "cpbench-judge:v1",
+    "image_id": "sha256:56c10bb07d711889dffcd599fa3cb146fa7ec9fe701f4e5c4f1b56c444f5c980",
+    "profile": "GNU C++20 / Linux / -O2",
+    "codeforces_equivalent": false
+  }
+}

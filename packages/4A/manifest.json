@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "4A",
+  "name": "Watermelon",
+  "rating": 800,
+  "tags": [
+    "math",
+    "brute force"
+  ],
+  "version": "1.0.0",
+  "generator": "generator.py",
+  "checker": "yesno_casefold_v1",
+  "time_limit_ms": 1000,
+  "memory_limit_mb": 64,
+  "reference": "reference.cpp",
+  "mutants": [
+    "wrong.cpp"
+  ],
+  "reference_origin": "cpbench_authored_not_codeforces_verified",
+  "scope": "pilot",
+  "limitations": "Small public pilot; not representative of full CP ability. No official hidden tests.",
+  "url": "https://codeforces.com/problemset/problem/4/A"
+}

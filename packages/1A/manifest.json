@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "1A",
+  "name": "Theatre Square",
+  "rating": 1000,
+  "tags": [
+    "math"
+  ],
+  "version": "1.0.0",
+  "generator": "generator.py",
+  "checker": "integer_tokens_v1",
+  "time_limit_ms": 1000,
+  "memory_limit_mb": 256,
+  "reference": "reference.cpp",
+  "mutants": [
+    "wrong.cpp"
+  ],
+  "reference_origin": "cpbench_authored_not_codeforces_verified",
+  "scope": "pilot",
+  "limitations": "Small public pilot; not representative of full CP ability. No official hidden tests.",
+  "url": "https://codeforces.com/problemset/problem/1/A"
+}
